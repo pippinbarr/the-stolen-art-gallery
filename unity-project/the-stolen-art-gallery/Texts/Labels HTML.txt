@@ -1,0 +1,108 @@
+World Space, Canvas 640x480, scale 0.00032
+Dynamic pixels, 1, Reference pixels 100
+
+
+<size="32"><b>Andy Warhol</b></size>
+<size="15"></size>
+<size="32"><i><b>Mao</b></i>, 1972</size>
+<size="15"></size>
+<size="28">Screenprint</size>
+
+
+√
+<size="32"><b>Alberto Giacometti</b></size>
+<size="15"></size>
+<size="32"><i><b>Annette</b></i>, 1958</size>
+<size="15"></size>
+<size="28">Oil on canvas</size>
+
+√
+<size="32"><b>David Hockney</b></size>
+<size="15"></size>
+<size="32"><i><b>Celia Weary</b></i>, 1979</size>
+<size="15"></size>
+<size="28">Lithograph</size>
+
+
+<size="32"><b>Pierre August Renoir</b></size>
+<size="15"></size>
+<size="32"><i><b>Madeleine Leaning on Her Elbow
+with Flowers in Her Hair</b></i>, 1918</size>
+<size="15"></size>
+<size="28">Oil on canvas</size>
+
+
+<size="32"><b>Nicolas Froment</b></size>
+<size="15"></size>
+<size="32"><i><b>Portrait of a Woman</b></i>, 1425-1485</size>
+<size="15"></size>
+<size="28">Oil on panel</size>
+
+
+<size="32"><b>Rembrandt Harmenszoon van Rijn</b></size>
+<size="15"></size>
+<size="32"><i><b>Saint Bartholomew</b></i>, 17th century</size>
+<size="15"></size>
+<size="28">Oil on panel</size>
+
+
+<size="32"><b>El Greco</b></size>
+<size="15"></size>
+<size="32"><i><b>The Apostle Thomas</b></i>, 17th century</size>
+<size="15"></size>
+<size="28">Oil on canvas</size>
+
+
+<size="32"><b>Henri Matisse</b></size>
+<size="15"></size>
+<size="32"><i><b>Femme au Collier</b></i>, 1943</size>
+<size="15"></size>
+<size="28">Pen and ink on paper</size>
+
+
+<size="32"><b>Pablo Picasso</b></size>
+<size="15"></size>
+<size="32"><i><b>Tête de Femme au Chapeau</b></i>, 1962</size>
+<size="15"></size>
+<size="28">Crayon on paper</size>
+
+
+
+<size="32"><b>Jacopo Tintoretto</b></size>
+<size="15"></size>
+<size="32"><i><b>Portrait of a Venetian Senator</b></i>, 
+1558-1594</size>
+<size="15"></size>
+<size="28">Oil on canvas</size>
+
+
+
+
+<size="32"><b>Unknown Artist</b></size>
+<size="15"></size>
+<size="32"><i><b>Caesar</b></i>, 1st Century BC</size>
+<size="15"></size>
+<size="28">Basalt</size>
+
+
+
+
+<size="32"><b>Marino Marini</b></size>
+<size="15"></size>
+<size="32"><i><b>Igor Stravinsky</b></i>, 1952</size>
+<size="15"></size>
+<size="28">Cast bronze</size>
+
+
+
+
+InvalidOperationException: Operation is not valid due to the current state of the object
+System.Collections.Stack.Peek () (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Collections/Stack.cs:321)
+UnityEngine.GUILayoutUtility.EndLayoutGroup ()
+UnityEngine.GUILayout.EndVertical ()
+UnityEditor.EditorGUILayout.EndVertical () (at /Users/builduser/buildslave/unity/build/Editor/Mono/EditorGUI.cs:6492)
+UnityEditor.InspectorWindow.DrawEditor (UnityEditor.Editor editor, Int32 editorIndex, Boolean forceDirty, System.Boolean& showImportedObjectBarNext, UnityEngine.Rect& importedObjectBarRect, Boolean eyeDropperDirty) (at /Users/builduser/buildslave/unity/build/Editor/Mono/Inspector/InspectorWindow.cs:1163)
+UnityEditor.InspectorWindow.DrawEditors (UnityEditor.Editor[] editors) (at /Users/builduser/buildslave/unity/build/Editor/Mono/Inspector/InspectorWindow.cs:959)
+UnityEditor.InspectorWindow.OnGUI () (at /Users/builduser/buildslave/unity/build/Editor/Mono/Inspector/InspectorWindow.cs:340)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+UnityEditor.PopupCallbackInfo:SetEnumValueDelegate(Object, String[], Int32)
